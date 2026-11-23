@@ -11,7 +11,7 @@ actualizado: 2026-11-23
 
 ## Cómo se calcularon las fechas (léelo antes de fiarte de ellas)
 
-- **Dato firme:** la Semana 1 es del 23 al 29 de noviembre de 2026 (plan detallado en [`U01_S01_2026-11-23_plan-neurona-y-capa.md`](U01_S01_2026-11-23_plan-neurona-y-capa.md)).
+- **Dato firme:** la Semana 1 es del 23 al 29 de noviembre de 2026 (plan detallado en [`U01_S01_2026-11-23_plan-neurona-y-capa.md`](U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md)).
 - **Estimación mía, no un resultado:** el reparto de semanas por unidad. Parte de unas 10 horas semanales (lunes a viernes, 7:00 a 9:00 p. m.) y de los hitos que ya acordamos (proyecto 1 hacia la semana 13, proyecto 2 hacia la 17, proyecto 3 hacia la 22 y proyecto 4 hacia la 28). Cuántas semanas toma cada unidad dentro de esos tramos es una **suposición razonable**, no está medida.
 - **Lo que casi seguro la moverá:** las semanas de fin de año (24 de dic. al 6 de ene.), y el inicio de tu 7.º semestre de Matemáticas en 2027, que quitará horas. Las fechas son **fechas objetivo**, no promesas.
 - **Regla si te atrasas:** no se saltan tareas. Se corre **todo** el calendario hacia adelante y se corrige solo este archivo; los demás documentos remiten a él.

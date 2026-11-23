@@ -17,7 +17,8 @@ AILab/
 ├── docs/
 │   ├── CONVENCIONES.md   # este archivo
 │   ├── PLANTILLA_LECCION.md
-│   └── ruta/             # ruta de aprendizaje, tabla de lecturas, planes semanales
+│   └── ruta/             # ruta general, calendario y tabla de lecturas
+│       └── UNN_SNN_AAAA-MM-DD_titulo/   # una carpeta por semana, con su plan
 ├── notebooks/
 │   └── UNN_SNN_AAAA-MM-DD_titulo/
 │       ├── README.md     # objetivo, idea, lecturas, ejercicios, prueba de salida, resumen
@@ -79,7 +80,9 @@ U<unidad>_S<semana>_<AAAA-MM-DD del lunes de esa semana>_<titulo-en-minusculas-c
 
 Ejemplo: `U01_S01_2026-11-23_neurona-y-capa`. La unidad y la semana ordenan la lista, la fecha dice cuándo ocurrió y el título dice de qué trata.
 
-**Documentos `.md` de una semana** (la teoría dentro de la carpeta y el plan semanal en `docs/ruta/`): llevan el mismo prefijo completo, para que se reconozcan aunque se abran fuera de su carpeta: `U01_S01_2026-11-23_plan-neurona-y-capa.md`.
+**Documentos `.md` de una semana** (la teoría dentro de la carpeta de la lección, y el plan semanal dentro de su propia subcarpeta de `docs/ruta/`): llevan el mismo prefijo completo, para que se reconozcan aunque se abran fuera de su carpeta: `U01_S01_2026-11-23_plan-neurona-y-capa.md`.
+
+**Subcarpetas por semana:** tanto `notebooks/` como `docs/ruta/` tienen **una carpeta por semana** con el mismo nombre (`U01_S01_2026-11-23_neurona-y-capa/`). En `docs/ruta/` guarda el plan de esa semana; en `notebooks/`, la lección. Los documentos generales de la ruta (`calendario.md`, la ruta y la tabla de lecturas) quedan sueltos en `docs/ruta/`.
 
 **Cuadernos `.ipynb`:** llevan solo la parte de la semana (`S01_2026-11-23_neurona-y-capa.ipynb`), porque la unidad ya está en la carpeta.
 

@@ -28,7 +28,7 @@ Las reglas de trabajo están en [`docs/CONVENCIONES.md`](docs/CONVENCIONES.md).
 - [Ruta general](docs/ruta/ruta_aprendizaje_redes_neuronales.md)
 - [Tabla de lecturas](docs/ruta/tabla_lecturas.md): libro, páginas y objetivo de cada lectura
 - [Calendario con fechas](docs/ruta/calendario.md): semana por semana, desde el 23 de noviembre de 2026
-- [Plan de la semana 1](docs/ruta/U01_S01_2026-11-23_plan-neurona-y-capa.md)
+- [Plan de la semana 1](docs/ruta/U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md)
 - [Plan de proyectos](projects/README.md)
 
 ## Progreso

@@ -2,7 +2,7 @@
 
 *Creado: 2026-11-23 · Última actualización: 2026-11-23*
 
-**Semana:** 1 · **Fechas:** del lunes 23 al domingo 29 de noviembre de 2026 (ver [`calendario.md`](../../docs/ruta/calendario.md)) · **Plan diario:** [`docs/ruta/U01_S01_2026-11-23_plan-neurona-y-capa.md`](../../docs/ruta/U01_S01_2026-11-23_plan-neurona-y-capa.md)
+**Semana:** 1 · **Fechas:** del lunes 23 al domingo 29 de noviembre de 2026 (ver [`calendario.md`](../../docs/ruta/calendario.md)) · **Plan diario:** [`docs/ruta/U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md`](../../docs/ruta/U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md)
 
 **Estado:** inicio 2026-11-23 · entrega (prueba de salida) 2026-11-29
 

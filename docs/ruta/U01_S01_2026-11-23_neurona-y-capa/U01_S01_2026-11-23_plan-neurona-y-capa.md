@@ -21,7 +21,7 @@ Eso incluye tres cosas concretas:
 
 Empiezas sin código, solo con la idea: qué significa que un modelo "aprenda" y qué es una neurona. Después aprendes las pocas herramientas de Python que necesitas, programas **una** neurona de tres maneras (a mano, con un bucle, con `np.dot`) y la ves crecer: se vuelve una capa, y la capa se vuelve un lote de datos. Cada día añade **una sola pieza** a la anterior.
 
-La semana **no incluye** activaciones, entrenamiento, clases ni PyTorch. Eso viene después, y adelantarlo te confundiría. El calendario de todas las semanas está en [`calendario.md`](calendario.md).
+La semana **no incluye** activaciones, entrenamiento, clases ni PyTorch. Eso viene después, y adelantarlo te confundiría. El calendario de todas las semanas está en [`calendario.md`](../calendario.md).
 
 ## 3. Materiales de la semana
 
