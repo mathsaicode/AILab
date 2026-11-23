@@ -79,7 +79,9 @@ U<unidad>_S<semana>_<AAAA-MM-DD del lunes de esa semana>_<titulo-en-minusculas-c
 
 Ejemplo: `U01_S01_2026-11-23_neurona-y-capa`. La unidad y la semana ordenan la lista, la fecha dice cuándo ocurrió y el título dice de qué trata.
 
-**Archivos dentro de la carpeta y planes semanales** (en `docs/ruta/`): llevan solo la parte de la semana, porque la unidad ya está en la carpeta: `S01_2026-11-23_neurona-y-capa.ipynb`, `S01_2026-11-23_plan-neurona-y-capa.md`.
+**Documentos `.md` de una semana** (la teoría dentro de la carpeta y el plan semanal en `docs/ruta/`): llevan el mismo prefijo completo, para que se reconozcan aunque se abran fuera de su carpeta: `U01_S01_2026-11-23_plan-neurona-y-capa.md`.
+
+**Cuadernos `.ipynb`:** llevan solo la parte de la semana (`S01_2026-11-23_neurona-y-capa.ipynb`), porque la unidad ya está en la carpeta.
 
 Sin tildes ni espacios, para que funcione bien en GitHub y en Colab.
 

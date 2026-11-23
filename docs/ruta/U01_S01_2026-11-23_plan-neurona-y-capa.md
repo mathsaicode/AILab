@@ -32,7 +32,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 | **Kinsley**, *Neural Networks from Scratch*, págs. 11 a 58 | Es tu lectura principal: te cuenta la neurona, la capa y el lote **con el código al lado** | Tu biblioteca |
 | **Prince**, *Understanding Deep Learning*, págs. 17 a 21 y 48 | Explica qué significa "aprender" y cómo se escribe una red con matrices | Tu biblioteca |
 | **Deisenroth**, *Mathematics for Machine Learning*, págs. 22 a 26 y 72 a 74 | Es el rigor matemático: matrices y producto interno | Tu biblioteca |
-| `S01_2026-11-23_teoria-wx-b.md` | Tu nota con la explicación detallada de $y=Wx+b$ y 5 ejercicios | Tu Obsidian |
+| `U01_S01_2026-11-23_teoria-wx-b.md` | Tu nota con la explicación detallada de $y=Wx+b$ y 5 ejercicios | Tu Obsidian |
 | `S01_2026-11-23_neurona-y-capa.ipynb` | El cuaderno de Colab, paso a paso | Colab |
 
 > Las páginas son las **impresas** en el libro. Para el visor de PDF suma aproximadamente: Kinsley +1, Prince +15, Deisenroth +6.
@@ -58,7 +58,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 | 7:00–7:30 | **Prince**, págs. 17 a 21 | Entender que "aprender" es ajustar parámetros para que el modelo se parezca a los datos. La regresión lineal que aparece ahí es, en esencia, una neurona sin activación. |
 | 7:30–8:00 | **Kinsley**, págs. 11 a 24 (*Introducing Neural Networks*) | Ver qué es una red neuronal y de dónde viene la idea, antes de ver código. |
 | 8:00–8:10 | Pausa | |
-| 8:10–8:50 | **Ejercicios a mano** de `S01_2026-11-23_teoria-wx-b.md`: el 1 y el 2 | Calcular una neurona con lápiz ($y=7$) y ver la geometría: de qué lado de la recta cae un punto. |
+| 8:10–8:50 | **Ejercicios a mano** de `U01_S01_2026-11-23_teoria-wx-b.md`: el 1 y el 2 | Calcular una neurona con lápiz ($y=7$) y ver la geometría: de qué lado de la recta cae un punto. |
 | 8:50–9:00 | **Cierre:** tres frases "Hoy aprendí…" | Fijar lo del día. |
 
 **Hecho cuando**
@@ -120,7 +120,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 **Hecho cuando**
 - [ ] Las comprobaciones de C2 y C3 salen con ✅.
 - [ ] Sin mirar, sé decir qué forma tienen $x$, $W$, $b$ y $y$.
-- [ ] Hice a mano el ejercicio 3 de `S01_2026-11-23_teoria-wx-b.md` (la vista por columnas).
+- [ ] Hice a mano el ejercicio 3 de `U01_S01_2026-11-23_teoria-wx-b.md` (la vista por columnas).
 
 ---
 
@@ -134,7 +134,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 | 7:20–7:35 | **Prince**, pág. 48 (4.4 *Matrix notation*) | Ver cómo se escribe una red de varias capas con matrices. |
 | 7:35–7:45 | Pausa | |
 | 7:45–8:30 | **Colab, Parte D** (D1 y D2) y lectura de la Parte E | Calcular $Y=XW^{\top}+b$ y verificar la segunda fila a mano. |
-| 8:30–8:55 | **Demostración** (ejercicio 4 de `S01_2026-11-23_teoria-wx-b.md`) | Demostrar que dos capas afines seguidas equivalen a una sola. Es la razón por la que la próxima unidad añade activaciones. |
+| 8:30–8:55 | **Demostración** (ejercicio 4 de `U01_S01_2026-11-23_teoria-wx-b.md`) | Demostrar que dos capas afines seguidas equivalen a una sola. Es la razón por la que la próxima unidad añade activaciones. |
 | 8:55–9:00 | **Cierre:** tres frases | |
 
 **Hecho cuando**
