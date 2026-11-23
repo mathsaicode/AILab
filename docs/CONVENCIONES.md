@@ -22,6 +22,7 @@ AILab/
 ├── notebooks/
 │   └── UNN_SNN_AAAA-MM-DD_titulo/
 │       ├── README.md     # objetivo, idea, lecturas, ejercicios, prueba de salida, resumen
+│       ├── assets/       # figuras de la lección (PNG) y el script que las genera
 │       ├── SNN_AAAA-MM-DD_titulo.ipynb            # plantilla del cuaderno
 │       └── SNN_AAAA-MM-DD_titulo_resuelto.ipynb   # tu versión resuelta
 ├── src/                   # código reutilizable (la mini-librería de redes neuronales)
@@ -96,4 +97,16 @@ Se exceptúan los archivos que no pertenecen a una sola semana (`README.md`, `ca
 - **En español** (es tu ruta personal): todo `docs/` (ruta, calendario, tabla de lecturas, planes semanales y estas convenciones) y `CLAUDE.md`.
 - Los nombres de carpetas y archivos de las lecciones conservan por ahora el título en español (por ejemplo `neurona-y-capa`). Si prefieres títulos en inglés, se cambian de una vez, junto con sus enlaces.
 - Cada lección en inglés enlaza a su plan en español, y el plan en español enlaza a la lección.
+
+## 11. Diseño (la vitrina tiene que verse bien)
+
+Lo que ve un reclutador es el `README.md` y el cuaderno tal como los muestra GitHub, no el código. Por eso cada lección debe cumplir:
+
+1. **Portada del cuaderno:** título con emoji, insignias (Colab, unidad, semana, Python), objetivo en un aviso y un mapa de partes.
+2. **Figuras:** cada idea importante lleva su dibujo (neurona, geometría, capa, lote…). Las funciones de dibujo viven en `src/` (por ejemplo `src/ailab_viz.py`), no dentro del cuaderno, para que el código de la lección sea corto y legible.
+3. **Avisos con formato:** 🎯 qué vamos a lograr, 💡 la idea, 👀 ejemplo resuelto, ✏️ tu turno y ✅ resultado esperado.
+4. **Salidas guardadas:** las celdas de ejemplo y de dibujo se guardan ya ejecutadas, para que GitHub muestre las figuras sin correr nada. Las celdas de "tu turno" se guardan **sin** salida y **sin** respuesta.
+5. **README de la lección:** las mismas figuras en PNG dentro de `assets/`, generadas con un script reproducible (`assets/make_figures.py`).
+6. **README raíz:** banner, insignias y un diagrama de la ruta que se actualiza al cerrar cada unidad.
+7. **Paleta común:** azul `#4F46E5`, verde azulado `#0D9488`, ámbar `#F59E0B` y rosa `#E11D48`.
 

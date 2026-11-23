@@ -1,4 +1,9 @@
-# Lesson 1: from the neuron to the layer
+# 🧠 Lesson 1: from the neuron to the layer
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathsaicode/AILab/blob/main/notebooks/U01_S01_2026-11-23_neurona-y-capa/S01_2026-11-23_neurona-y-capa.ipynb)
+![Unit](https://img.shields.io/badge/Unit-1-4F46E5)
+![Week](https://img.shields.io/badge/Week-1-0D9488)
+![Status](https://img.shields.io/badge/status-in%20progress-F59E0B)
 
 *Created: 2026-11-23 · Last updated: 2026-11-23*
 
@@ -6,7 +11,7 @@
 
 **Status:** started 2026-11-23 · due (exit test) 2026-11-29
 
-> Language note: the lessons in `notebooks/` are written in English. The study route, the reading table and the weekly plans in `docs/ruta/` are written in Spanish.
+> 🌐 Language note: the lessons in `notebooks/` are written in English. The study route, the reading table and the weekly plans in `docs/ruta/` are written in Spanish.
 
 ## 1. Goal
 
@@ -26,7 +31,12 @@ A neuron receives $n$ numbers $x_1,\dots,x_n$. Each one "votes" with a weight $w
 
 $$y = \sum_{i=1}^{n} w_i x_i + b = w^{\top}x + b$$
 
-The bias shifts the hyperplane $w^{\top}x + b = 0$. Without it, that hyperplane would always pass through the origin.
+
+<p align="center"><img src="assets/neuron.png" alt="A neuron: three weighted inputs, a sum, a bias and an output" width="680"></p>
+
+The bias shifts the hyperplane $w^{\top}x + b = 0$. Without it, that hyperplane would always pass through the origin. In two dimensions that hyperplane is a line, and the neuron tells every point which side it is on and how far away it is:
+
+<p align="center"><img src="assets/hyperplane.png" alt="A neuron cuts the plane in two" width="440"></p>
 
 ### The layer
 A layer is $m$ neurons that look at the **same** $n$ inputs, each with its own weights. The weights are stored in a matrix where **each row is one neuron**:
@@ -35,10 +45,14 @@ $$y = Wx + b, \qquad W\in\mathbb{R}^{m\times n},\; x\in\mathbb{R}^{n},\; b\in\ma
 
 In linear-algebra terms: $x\mapsto Wx$ is a linear map and adding $b$ is a translation. Together they form an **affine** map.
 
+<p align="center"><img src="assets/layer.png" alt="A layer: every input connected to every neuron" width="680"></p>
+
 ### The batch
 In practice $N$ examples are processed at once, stored as the rows of $X\in\mathbb{R}^{N\times n}$. Transposing $y_k = Wx_k + b$ gives $y_k^{\top} = x_k^{\top}W^{\top} + b^{\top}$, and stacking the $N$ rows:
 
 $$Y = XW^{\top} + \mathbf{1}\,b^{\top}$$
+
+<p align="center"><img src="assets/batch.png" alt="The batch formula drawn as matrices with their shapes" width="760"></p>
 
 ### Why it matters later
 Two affine layers in a row are equivalent to **a single one**: $W_2(W_1x+b_1)+b_2 = (W_2W_1)x + (W_2b_1+b_2)$. That is why the next lesson adds a **nonlinear** function between layers. Every network you will meet later, from a classifier to a transformer, is built by stacking layers like this one.
