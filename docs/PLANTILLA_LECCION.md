@@ -6,7 +6,9 @@ Copia este archivo como `README.md` dentro de `notebooks/NN-nombre-de-la-leccion
 
 # Lección NN: título
 
-**Semana:** N · **Plan diario:** enlace al plan semanal
+**Semana:** N · **Fechas:** del DD de mes al DD de mes de AAAA (ver [`calendario.md`](ruta/calendario.md)) · **Plan diario:** enlace al plan semanal
+
+**Estado:** inicio AAAA-MM-DD · entrega AAAA-MM-DD
 
 ## 1. Objetivo
 

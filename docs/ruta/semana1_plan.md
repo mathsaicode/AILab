@@ -19,7 +19,7 @@ Eso incluye tres cosas concretas:
 
 Empiezas sin código, solo con la idea: qué significa que un modelo "aprenda" y qué es una neurona. Después aprendes las pocas herramientas de Python que necesitas, programas **una** neurona de tres maneras (a mano, con un bucle, con `np.dot`) y la ves crecer: se vuelve una capa, y la capa se vuelve un lote de datos. Cada día añade **una sola pieza** a la anterior.
 
-La semana **no incluye** activaciones, entrenamiento, clases ni PyTorch. Eso viene después, y adelantarlo te confundiría.
+La semana **no incluye** activaciones, entrenamiento, clases ni PyTorch. Eso viene después, y adelantarlo te confundiría. El calendario de todas las semanas está en [`calendario.md`](calendario.md).
 
 ## 3. Materiales de la semana
 
@@ -47,7 +47,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ## 5. Plan diario
 
-### Lunes 23: ¿qué es aprender y qué es una neurona?
+### Lunes 23 de noviembre de 2026: ¿qué es aprender y qué es una neurona?
 
 **Objetivo del día:** poder explicar con tus palabras qué hace una neurona y qué significa que un modelo "aprenda". **Hoy no se programa.**
 
@@ -66,7 +66,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ---
 
-### Martes 24: la neurona y Python básico
+### Martes 24 de noviembre de 2026: la neurona y Python básico
 
 **Objetivo del día:** entender la neurona con sus números y aprender las cuatro herramientas de Python que necesitas (variables, listas, bucle, acumulador).
 
@@ -84,7 +84,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ---
 
-### Miércoles 25: la neurona como producto punto
+### Miércoles 25 de noviembre de 2026: la neurona como producto punto
 
 **Objetivo del día:** programar la neurona de tres maneras (a mano, bucle y `np.dot`) y reconocer que $w^{\top}x$ es el producto interno que ya conoces.
 
@@ -103,7 +103,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ---
 
-### Jueves 26: de una neurona a una capa
+### Jueves 26 de noviembre de 2026: de una neurona a una capa
 
 **Objetivo del día:** entender que una capa es una **matriz $W$ donde cada fila es una neurona**, y que el bucle sobre las neuronas es exactamente el producto $Wx$.
 
@@ -122,7 +122,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ---
 
-### Viernes 27: el lote de datos
+### Viernes 27 de noviembre de 2026: el lote de datos
 
 **Objetivo del día:** procesar varios ejemplos a la vez y entender **por qué** aparece $W^{\top}$.
 
@@ -142,7 +142,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ---
 
-### Sábado 28: repaso (tentativo)
+### Sábado 28 de noviembre de 2026: repaso (tentativo)
 
 > Confírmame si ya puedes trabajar los sábados. Si no, esto pasa al domingo.
 
@@ -153,7 +153,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ---
 
-### Domingo 29: prueba de salida
+### Domingo 29 de noviembre de 2026: prueba de salida
 
 **Objetivo del día:** verificar que cumpliste el objetivo de la semana.
 
@@ -171,7 +171,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 
 ---
 
-## 6. Qué viene después (Semana 2)
+## 6. Qué viene después (Semana 2: del 30 de noviembre al 6 de diciembre de 2026)
 
 **Activaciones y pérdida.** Si apilas capas afines, el resultado sigue siendo una sola capa afín. Por eso añadimos una función **no lineal** (ReLU) entre capas y una medida del error. Con eso, la red por fin tiene algo que mejorar.
 
@@ -183,10 +183,12 @@ Ninguno de tus libros enseña Python desde cero. Tu práctica real de Python est
 
 ## Seguimiento
 
-- [ ] Lunes 23
-- [ ] Martes 24
-- [ ] Miércoles 25
-- [ ] Jueves 26
-- [ ] Viernes 27
-- [ ] Sábado 28 (tentativo)
-- [ ] Domingo 29: prueba de salida
+*Fecha de cierre de la semana: domingo 29 de noviembre de 2026.*
+
+- [ ] Lunes 23 de noviembre
+- [ ] Martes 24 de noviembre
+- [ ] Miércoles 25 de noviembre
+- [ ] Jueves 26 de noviembre
+- [ ] Viernes 27 de noviembre
+- [ ] Sábado 28 de noviembre (tentativo)
+- [ ] Domingo 29 de noviembre: prueba de salida

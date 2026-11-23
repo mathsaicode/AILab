@@ -5,6 +5,8 @@ aliases: [Ruta IA, Plan de estudio redes neuronales]
 
 # Ruta de aprendizaje: de la neurona a la robótica con IA
 
+> **Fechas:** el calendario completo (semana por semana, con hitos) está en [`calendario.md`](calendario.md). Son fechas objetivo, no promesas.
+
 > **Nota:** esta es la **primera versión** de la ruta (con cinco libros). La tabla de lecturas vigente, con siete libros y el objetivo de cada lectura, está en [`tabla_lecturas.md`](tabla_lecturas.md). Los números de las fases de este documento corresponden a las unidades de esa tabla.
 
 > **La idea en una frase.** Vas a construir una red neuronal **primero a mano** (NumPy), para entender qué hay por dentro, y **después con PyTorch**, para trabajar como se trabaja en la práctica. Los cinco libros no se leen de principio a fin: cada fase te dice **qué leer, de qué libro y para qué**.
@@ -35,6 +37,8 @@ aliases: [Ruta IA, Plan de estudio redes neuronales]
 
 ## Fase 0: Calentamiento de Python
 
+**Fechas estimadas:** 23 al 25 de noviembre de 2026, dentro de la Semana 1 (la Parte A del cuaderno es el martes 24). Ver [`calendario.md`](calendario.md).
+
 > **Idea y objetivo.** Ninguno de los cinco libros enseña Python desde cero (Kinsley asume lo básico). Esta fase cierra ese hueco con práctica, usando la neurona como ejemplo.
 
 - **Práctica (ya empezada):** el bucle `for` que calcula $y = \sum_i w_i x_i + b$ en Colab, y después la versión con NumPy.
@@ -48,6 +52,8 @@ aliases: [Ruta IA, Plan de estudio redes neuronales]
 ---
 
 ## Fase 1: La neurona y la capa
+
+**Fechas estimadas:** Semana 1, del 23 de noviembre de 2026 al 29 de noviembre de 2026. Ver [`calendario.md`](calendario.md).
 
 > **Idea y objetivo.** Entender que una capa es $y = Wx + b$: álgebra lineal pura. Meta: escribir tu propia clase de capa densa.
 
@@ -69,6 +75,8 @@ aliases: [Ruta IA, Plan de estudio redes neuronales]
 ---
 
 ## Fase 2: Activaciones y error (qué significa "aprender")
+
+**Fechas estimadas:** Semanas 2 a 4, del 30 de noviembre de 2026 al 20 de diciembre de 2026. Ver [`calendario.md`](calendario.md).
 
 > **Idea y objetivo.** Sin no linealidad, apilar capas no sirve; y sin una medida de error, no hay nada que mejorar. Aquí aparecen la **activación** y la **función de pérdida**, y con ella un poco de probabilidad, justo a tiempo.
 
@@ -96,6 +104,8 @@ $$
 
 ## Fase 3: Derivadas y retropropagación (el corazón)
 
+**Fechas estimadas:** Semanas 5 a 7, del 21 de diciembre de 2026 al 10 de enero de 2027. Ver [`calendario.md`](calendario.md).
+
 > **Idea y objetivo.** La red aprende moviendo sus parámetros en la dirección que reduce el error. Para saber cuál es, necesitas la **derivada del error respecto de cada parámetro**, y para calcularla en una red de muchas capas se usa la **regla de la cadena**:
 
 $$
@@ -122,6 +132,8 @@ Esta fase es donde tu cálculo multivariable se vuelve indispensable.
 
 ## Fase 4: Optimizadores (cómo bajar bien por la superficie del error)
 
+**Fechas estimadas:** Semanas 8 a 9, del 11 de enero de 2027 al 24 de enero de 2027. Ver [`calendario.md`](calendario.md).
+
 > **Idea y objetivo.** Conocer el gradiente no basta: hay que decidir cuánto moverse y cómo. La regla básica es
 
 $$
@@ -147,6 +159,8 @@ y los optimizadores modernos son refinamientos de ella.
 
 ## Fase 5: Generalizar (no memorizar)
 
+**Fechas estimadas:** Semanas 10 a 11, del 25 de enero de 2027 al 7 de febrero de 2027. Ver [`calendario.md`](calendario.md).
+
 > **Idea y objetivo.** Una red puede aprender los datos de entrenamiento "de memoria" y fallar con datos nuevos. Aquí aprendes a medirlo (conjuntos de validación) y a corregirlo (regularización).
 
 | Libro | Qué leer |
@@ -165,6 +179,8 @@ y los optimizadores modernos son refinamientos de ella.
 ---
 
 ## Fase 6: Un modelo completo, de principio a fin
+
+**Fechas estimadas:** Semanas 12 a 13, del 8 de febrero de 2027 al 21 de febrero de 2027. Ver [`calendario.md`](calendario.md).
 
 > **Idea y objetivo.** Integrar todo en un objeto `Modelo` reutilizable, con clasificación, regresión, datos reales, evaluación y guardado. **Este es tu primer gran hito: una red neuronal sin librerías.**
 
@@ -185,6 +201,8 @@ y los optimizadores modernos son refinamientos de ella.
 
 ## Fase 7: El salto a PyTorch
 
+**Fechas estimadas:** Semanas 14 a 17, del 22 de febrero de 2027 al 21 de marzo de 2027. Ver [`calendario.md`](calendario.md).
+
 > **Idea y objetivo.** Ahora que sabes qué hay por dentro, PyTorch deja de ser magia: hace por ti el cálculo del gradiente (*autograd*) y los optimizadores que tú escribiste. Meta: **rehacer lo de la fase 6 en PyTorch y comparar**.
 
 | Libro | Qué leer |
@@ -203,6 +221,8 @@ y los optimizadores modernos son refinamientos de ella.
 
 ## Fase 8: Arquitecturas modernas
 
+**Fechas estimadas:** Semanas 18 a 22, del 22 de marzo de 2027 al 25 de abril de 2027. Ver [`calendario.md`](calendario.md).
+
 > **Idea y objetivo.** Dos grandes ideas: las **convoluciones** (reutilizar los mismos pesos en toda una imagen) y la **atención** (cada elemento mira a los demás). Son la base de la visión y de los modelos de lenguaje.
 
 | Libro | Qué leer |
@@ -220,6 +240,8 @@ y los optimizadores modernos son refinamientos de ella.
 ---
 
 ## Fase 9: Robótica, modelos generativos y producción
+
+**Fechas estimadas:** Semanas 23 a 28, del 26 de abril de 2027 al 6 de junio de 2027. Ver [`calendario.md`](calendario.md).
 
 > **Idea y objetivo.** Dirigir lo aprendido hacia tu meta: percepción y decisión en robótica, y llevar modelos a producción (MLOps).
 
@@ -256,13 +278,13 @@ No son malos temas: simplemente no son necesarios para empezar.
 
 ## Tu progreso
 
-- [ ] Fase 0: Calentamiento de Python
-- [ ] Fase 1: La neurona y la capa
-- [ ] Fase 2: Activaciones y error
-- [ ] Fase 3: Derivadas y retropropagación
-- [ ] Fase 4: Optimizadores
-- [ ] Fase 5: Generalizar
-- [ ] Fase 6: Un modelo completo (**hito: red neuronal sin librerías**)
-- [ ] Fase 7: El salto a PyTorch
-- [ ] Fase 8: Arquitecturas modernas
-- [ ] Fase 9: Robótica, generativos y producción
+- [ ] Fase 0: Calentamiento de Python (23 – 25 nov 2026)
+- [ ] Fase 1: La neurona y la capa (23 nov 2026 – 29 nov 2026)
+- [ ] Fase 2: Activaciones y error (30 nov 2026 – 20 dic 2026)
+- [ ] Fase 3: Derivadas y retropropagación (21 dic 2026 – 10 ene 2027)
+- [ ] Fase 4: Optimizadores (11 ene 2027 – 24 ene 2027)
+- [ ] Fase 5: Generalizar (25 ene 2027 – 7 feb 2027)
+- [ ] Fase 6: Un modelo completo (**hito: red neuronal sin librerías**) (8 feb 2027 – 21 feb 2027)
+- [ ] Fase 7: El salto a PyTorch (22 feb 2027 – 21 mar 2027)
+- [ ] Fase 8: Arquitecturas modernas (22 mar 2027 – 25 abr 2027)
+- [ ] Fase 9: Robótica, generativos y producción (26 abr 2027 – 6 jun 2027)

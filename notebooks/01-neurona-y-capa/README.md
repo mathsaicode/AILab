@@ -1,6 +1,8 @@
 # Lección 1: de la neurona a la capa
 
-**Semana:** 1 (23 al 29 de noviembre de 2026) · **Plan diario:** [`docs/ruta/semana1_plan.md`](../../docs/ruta/semana1_plan.md)
+**Semana:** 1 · **Fechas:** del lunes 23 al domingo 29 de noviembre de 2026 (ver [`calendario.md`](../../docs/ruta/calendario.md)) · **Plan diario:** [`docs/ruta/semana1_plan.md`](../../docs/ruta/semana1_plan.md)
+
+**Estado:** inicio 2026-11-23 · entrega (prueba de salida) 2026-11-29
 
 ## 1. Objetivo
 
@@ -108,4 +110,4 @@ Responde sin mirar el libro ni el cuaderno:
 
 ## 9. Qué sigue
 
-**Lección 2: activaciones y pérdida.** Añadimos una función no lineal entre capas y una medida del error, para que la red tenga algo que mejorar.
+**Lección 2: activaciones y pérdida** (Semanas 2 a 4: 30 de noviembre al 20 de diciembre de 2026). Añadimos una función no lineal entre capas y una medida del error, para que la red tenga algo que mejorar.

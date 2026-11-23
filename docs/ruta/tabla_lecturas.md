@@ -41,6 +41,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 
 ## Unidad 1: de la neurona a la capa
 
+**Fechas estimadas:** Semana 1, del 23 de noviembre de 2026 al 29 de noviembre de 2026 (ver [`calendario.md`](calendario.md)).
+
+
 **Objetivo de la unidad:** Calcular $y=Wx+b$ para una capa y para un lote de datos, y saber explicar qué significa cada símbolo.
 
 ### Lectura principal
@@ -71,6 +74,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 ---
 
 ## Unidad 2: activaciones y pérdida
+
+**Fechas estimadas:** Semanas 2 a 4, del 30 de noviembre de 2026 al 20 de diciembre de 2026 (ver [`calendario.md`](calendario.md)).
+
 
 **Objetivo de la unidad:** Entender por qué hace falta una función no lineal entre capas y cómo se mide el error de una red.
 
@@ -104,6 +110,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 
 ## Unidad 3: derivadas y retropropagación
 
+**Fechas estimadas:** Semanas 5 a 7, del 21 de diciembre de 2026 al 10 de enero de 2027 (ver [`calendario.md`](calendario.md)).
+
+
 **Objetivo de la unidad:** Entender cómo se calcula $\dfrac{\partial L}{\partial W}$ en una red de varias capas mediante la regla de la cadena.
 
 ### Lectura principal
@@ -135,6 +144,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 
 ## Unidad 4: optimizadores
 
+**Fechas estimadas:** Semanas 8 a 9, del 11 de enero de 2027 al 24 de enero de 2027 (ver [`calendario.md`](calendario.md)).
+
+
 **Objetivo de la unidad:** Entender cómo se usa el gradiente para mejorar los parámetros: $\theta\leftarrow\theta-\eta\,\nabla_\theta L$ y sus refinamientos.
 
 ### Lectura principal
@@ -164,6 +176,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 ---
 
 ## Unidad 5: generalizar, no memorizar
+
+**Fechas estimadas:** Semanas 10 a 11, del 25 de enero de 2027 al 7 de febrero de 2027 (ver [`calendario.md`](calendario.md)).
+
 
 **Objetivo de la unidad:** Aprender a medir si la red funciona con datos nuevos y a corregir el sobreajuste.
 
@@ -195,6 +210,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 
 ## Unidad 6: un modelo completo (hito: red neuronal sin librerías)
 
+**Fechas estimadas:** Semanas 12 a 13, del 8 de febrero de 2027 al 21 de febrero de 2027 (ver [`calendario.md`](calendario.md)).
+
+
 **Objetivo de la unidad:** Integrar todo en un objeto `Modelo` con clasificación, regresión, datos reales, evaluación y guardado.
 
 ### Lectura principal
@@ -222,6 +240,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 ---
 
 ## Unidad 7: el salto a PyTorch
+
+**Fechas estimadas:** Semanas 14 a 17, del 22 de febrero de 2027 al 21 de marzo de 2027 (ver [`calendario.md`](calendario.md)).
+
 
 **Objetivo de la unidad:** Rehacer la red de la Unidad 6 en PyTorch y entender qué línea reemplaza a cada pieza que escribiste a mano.
 
@@ -254,6 +275,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 
 ## Unidad 8: arquitecturas modernas
 
+**Fechas estimadas:** Semanas 18 a 22, del 22 de marzo de 2027 al 25 de abril de 2027 (ver [`calendario.md`](calendario.md)).
+
+
 **Objetivo de la unidad:** Entender las dos grandes ideas: la convolución (reutilizar los mismos pesos en toda la imagen) y la atención (cada elemento mira a los demás).
 
 ### Lectura principal
@@ -285,6 +309,9 @@ aliases: [Tabla de lecturas, Lecturas por unidad]
 ---
 
 ## Unidad 9: robótica, generación y producción
+
+**Fechas estimadas:** Semanas 23 a 28, del 26 de abril de 2027 al 6 de junio de 2027 (ver [`calendario.md`](calendario.md)).
+
 
 **Objetivo de la unidad:** Dirigir lo aprendido hacia tu meta: percepción y decisión en robótica, y llevar modelos a producción.
 
