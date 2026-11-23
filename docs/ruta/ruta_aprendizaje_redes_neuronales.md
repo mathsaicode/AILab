@@ -1,6 +1,8 @@
 ---
 tags: [ia, redes-neuronales, ruta, robotica]
 aliases: [Ruta IA, Plan de estudio redes neuronales]
+creado: 2026-11-23
+actualizado: 2026-11-23
 ---
 
 # Ruta de aprendizaje: de la neurona a la robótica con IA

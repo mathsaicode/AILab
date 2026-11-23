@@ -1,5 +1,7 @@
 # Lección 1: de la neurona a la capa
 
+*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+
 **Semana:** 1 · **Fechas:** del lunes 23 al domingo 29 de noviembre de 2026 (ver [`calendario.md`](../../docs/ruta/calendario.md)) · **Plan diario:** [`docs/ruta/semana1_plan.md`](../../docs/ruta/semana1_plan.md)
 
 **Estado:** inicio 2026-11-23 · entrega (prueba de salida) 2026-11-29

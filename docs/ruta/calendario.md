@@ -1,6 +1,8 @@
 ---
 tags: [ia, redes-neuronales, calendario]
 aliases: [Calendario, Fechas de la ruta]
+creado: 2026-11-23
+actualizado: 2026-11-23
 ---
 
 # Calendario de la ruta

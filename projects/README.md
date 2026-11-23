@@ -1,5 +1,7 @@
 # Proyectos
 
+*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+
 Aquí viven los proyectos que se pueden **mostrar**: pensados para que alguien que no te conoce entienda qué hiciste, por qué y qué resultado obtuviste.
 
 > Los proyectos no se improvisan. Cada uno aparece **cuando ya tienes los conocimientos para hacerlo bien**, al final de una unidad de la ruta. Las semanas son aproximadas (parten de unas 10 horas por semana) y se ajustarán a tu ritmo real. Las fechas objetivo salen de [`calendario.md`](../docs/ruta/calendario.md), contando desde el 23 de noviembre de 2026.

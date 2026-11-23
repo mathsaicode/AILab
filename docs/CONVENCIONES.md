@@ -1,5 +1,7 @@
 # Convenciones del laboratorio
 
+*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+
 Reglas para que todo el trabajo quede ordenado, documentado y fácil de mostrar.
 
 ## 1. Regla principal
@@ -62,3 +64,7 @@ No se suben datos grandes ni modelos entrenados pesados. Se documenta cómo desc
 - [ ] Prueba de salida respondida sin mirar.
 - [ ] "Mi resumen" escrito.
 - [ ] Cuaderno resuelto guardado en la carpeta de la lección.
+
+## 8. Fechas
+
+Cada documento `.md` lleva su fecha de creación y de última actualización (formato `AAAA-MM-DD`) justo debajo del título, o en el encabezado `creado:` / `actualizado:` si empieza con metadatos. **Al editar un documento, actualiza la fecha.** El calendario general vive en [`ruta/calendario.md`](ruta/calendario.md).

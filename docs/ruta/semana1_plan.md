@@ -1,6 +1,8 @@
 ---
 tags: [ia, redes-neuronales, plan-semanal, semana-1]
 aliases: [Semana 1, Plan de la semana 1]
+creado: 2026-11-23
+actualizado: 2026-11-23
 ---
 
 # Semana 1: de la neurona a la capa (23 al 29 de noviembre de 2026)

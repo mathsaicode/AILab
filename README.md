@@ -1,4 +1,7 @@
 # AILab
+
+*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+
 AI Lab con Claude
 
 ## Objetivos

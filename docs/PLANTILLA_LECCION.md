@@ -1,5 +1,7 @@
 # Plantilla de lección
 
+*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+
 Copia este archivo como `README.md` dentro de `notebooks/NN-nombre-de-la-leccion/` y complétalo. Ver el ejemplo real en [`notebooks/01-neurona-y-capa/README.md`](../notebooks/01-neurona-y-capa/README.md).
 
 ---

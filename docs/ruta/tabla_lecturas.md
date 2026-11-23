@@ -1,6 +1,8 @@
 ---
 tags: [ia, redes-neuronales, lecturas]
 aliases: [Tabla de lecturas, Lecturas por unidad]
+creado: 2026-11-23
+actualizado: 2026-11-23
 ---
 
 # Tabla de lecturas por unidad

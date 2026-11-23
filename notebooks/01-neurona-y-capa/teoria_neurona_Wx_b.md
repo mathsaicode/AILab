@@ -1,5 +1,7 @@
 # La neurona por dentro: entendiendo $y = Wx + b$
 
+*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+
 > **La idea en una frase.** Una capa de red neuronal toma varios números de entrada, los mezcla con unos *pesos* que **tú no escribes: se aprenden**, y produce nuevos números. Todo lo demás en el aprendizaje profundo se construye apilando y ajustando esa operación.
 
 ---
