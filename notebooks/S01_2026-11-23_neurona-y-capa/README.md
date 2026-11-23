@@ -2,7 +2,7 @@
 
 *Creado: 2026-11-23 · Última actualización: 2026-11-23*
 
-**Semana:** 1 · **Fechas:** del lunes 23 al domingo 29 de noviembre de 2026 (ver [`calendario.md`](../../docs/ruta/calendario.md)) · **Plan diario:** [`docs/ruta/semana1_plan.md`](../../docs/ruta/semana1_plan.md)
+**Semana:** 1 · **Fechas:** del lunes 23 al domingo 29 de noviembre de 2026 (ver [`calendario.md`](../../docs/ruta/calendario.md)) · **Plan diario:** [`docs/ruta/S01_2026-11-23_plan-neurona-y-capa.md`](../../docs/ruta/S01_2026-11-23_plan-neurona-y-capa.md)
 
 **Estado:** inicio 2026-11-23 · entrega (prueba de salida) 2026-11-29
 
@@ -66,9 +66,9 @@ Las páginas son las **impresas** en cada libro. El desfase con el visor de PDF 
 
 ## 4. Cuaderno
 
-- **Plantilla:** [`01_neurona_y_capa.ipynb`](01_neurona_y_capa.ipynb) · [abrir en Colab](https://colab.research.google.com/github/mathsaicode/AILab/blob/main/notebooks/01-neurona-y-capa/01_neurona_y_capa.ipynb)
-- **Tu versión resuelta:** guárdala aquí como `01_neurona_y_capa_resuelto.ipynb`.
-- **Teoría de apoyo:** [`teoria_neurona_Wx_b.md`](teoria_neurona_Wx_b.md) explica $y=Wx+b$ con ejemplos numéricos y 5 ejercicios.
+- **Plantilla:** [`S01_2026-11-23_neurona-y-capa.ipynb`](S01_2026-11-23_neurona-y-capa.ipynb) · [abrir en Colab](https://colab.research.google.com/github/mathsaicode/AILab/blob/main/notebooks/S01_2026-11-23_neurona-y-capa/S01_2026-11-23_neurona-y-capa.ipynb)
+- **Tu versión resuelta:** guárdala aquí como `S01_2026-11-23_neurona-y-capa_resuelto.ipynb`.
+- **Teoría de apoyo:** [`S01_2026-11-23_teoria-wx-b.md`](S01_2026-11-23_teoria-wx-b.md) explica $y=Wx+b$ con ejemplos numéricos y 5 ejercicios.
 
 Estructura del cuaderno: **Parte A** (Python básico), **B** (la neurona), **C** (la capa), **D** (el lote) y **E** (resumen).
 

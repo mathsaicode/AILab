@@ -66,7 +66,7 @@ actualizado: 2026-11-23
 | **MML** | 2.2 *Matrices*; 2.7 *Linear Mappings*; 2.8 *Affine Spaces*; 3.2 *Inner Products* |
 | **Goodfellow** | 2.1 y 2.2 (escalares, vectores, matrices; multiplicar matrices y vectores); 6.1 *Example: Learning XOR* |
 
-- **Tu nota de apoyo:** `neurona_Wx_b.md`.
+- **Tu nota de apoyo:** `S01_2026-11-23_teoria-wx-b.md`.
 - **Entregable:** una clase `CapaDensa` en NumPy, escrita por ti, que verifica las formas de entrada y salida.
 
 **Hecho cuando**

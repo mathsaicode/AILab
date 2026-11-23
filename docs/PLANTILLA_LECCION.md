@@ -2,7 +2,7 @@
 
 *Creado: 2026-11-23 · Última actualización: 2026-11-23*
 
-Copia este archivo como `README.md` dentro de `notebooks/NN-nombre-de-la-leccion/` y complétalo. Ver el ejemplo real en [`notebooks/01-neurona-y-capa/README.md`](../notebooks/01-neurona-y-capa/README.md).
+Copia este archivo como `README.md` dentro de `notebooks/SNN_AAAA-MM-DD_titulo/` y complétalo. Ver el ejemplo real en [`notebooks/S01_2026-11-23_neurona-y-capa/README.md`](../notebooks/S01_2026-11-23_neurona-y-capa/README.md).
 
 ---
 
@@ -41,8 +41,8 @@ Explicación conceptual completa, con el porqué: la historia de la idea, su bas
 
 ## 4. Cuaderno
 
-- Plantilla: `NN_nombre.ipynb`
-- Tu versión resuelta: `NN_nombre_resuelto.ipynb`
+- Plantilla: `SNN_AAAA-MM-DD_titulo.ipynb`
+- Tu versión resuelta: `SNN_AAAA-MM-DD_titulo_resuelto.ipynb`
 
 Cada paso del cuaderno debe tener: qué se va a lograr, la idea, un ejemplo resuelto, tu turno y el resultado esperado.
 
