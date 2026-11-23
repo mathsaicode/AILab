@@ -2,7 +2,7 @@
 
 *Creado: 2026-11-23 · Última actualización: 2026-11-23*
 
-Copia este archivo como `README.md` dentro de `notebooks/SNN_AAAA-MM-DD_titulo/` y complétalo. Ver el ejemplo real en [`notebooks/S01_2026-11-23_neurona-y-capa/README.md`](../notebooks/S01_2026-11-23_neurona-y-capa/README.md).
+Copia este archivo como `README.md` dentro de `notebooks/UNN_SNN_AAAA-MM-DD_titulo/` y complétalo. Ver el ejemplo real en [`notebooks/U01_S01_2026-11-23_neurona-y-capa/README.md`](../notebooks/U01_S01_2026-11-23_neurona-y-capa/README.md).
 
 ---
 

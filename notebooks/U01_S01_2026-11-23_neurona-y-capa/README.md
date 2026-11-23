@@ -66,7 +66,7 @@ Las páginas son las **impresas** en cada libro. El desfase con el visor de PDF 
 
 ## 4. Cuaderno
 
-- **Plantilla:** [`S01_2026-11-23_neurona-y-capa.ipynb`](S01_2026-11-23_neurona-y-capa.ipynb) · [abrir en Colab](https://colab.research.google.com/github/mathsaicode/AILab/blob/main/notebooks/S01_2026-11-23_neurona-y-capa/S01_2026-11-23_neurona-y-capa.ipynb)
+- **Plantilla:** [`S01_2026-11-23_neurona-y-capa.ipynb`](S01_2026-11-23_neurona-y-capa.ipynb) · [abrir en Colab](https://colab.research.google.com/github/mathsaicode/AILab/blob/main/notebooks/U01_S01_2026-11-23_neurona-y-capa/S01_2026-11-23_neurona-y-capa.ipynb)
 - **Tu versión resuelta:** guárdala aquí como `S01_2026-11-23_neurona-y-capa_resuelto.ipynb`.
 - **Teoría de apoyo:** [`S01_2026-11-23_teoria-wx-b.md`](S01_2026-11-23_teoria-wx-b.md) explica $y=Wx+b$ con ejemplos numéricos y 5 ejercicios.
 

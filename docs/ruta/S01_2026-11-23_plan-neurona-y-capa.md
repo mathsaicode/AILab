@@ -167,7 +167,7 @@ Elegí solo las lecturas que explican mejor cada idea, sin repetir:
 5. ¿Por qué en el lote se usa $XW^{\top}$?
 
 **Parte 2: guardar tu trabajo (15 min)**
-- [ ] Guarda el cuaderno terminado en GitHub (en Colab: *Archivo → Guardar una copia en GitHub*), en la carpeta `notebooks/S01_2026-11-23_neurona-y-capa/` de `AILab`, con el nombre `S01_2026-11-23_neurona-y-capa_resuelto.ipynb`, y escribe tus "Hoy aprendí…" en el `README.md` de esa carpeta.
+- [ ] Guarda el cuaderno terminado en GitHub (en Colab: *Archivo → Guardar una copia en GitHub*), en la carpeta `notebooks/U01_S01_2026-11-23_neurona-y-capa/` de `AILab`, con el nombre `S01_2026-11-23_neurona-y-capa_resuelto.ipynb`, y escribe tus "Hoy aprendí…" en el `README.md` de esa carpeta.
 
 **Cómo se evalúa:** con **4 de 5 respuestas correctas** pasas a la Semana 2. Con menos, repetimos los días donde fallaste, sin culpa: es la forma más rápida de aprender.
 

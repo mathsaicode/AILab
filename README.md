@@ -35,7 +35,7 @@ Las reglas de trabajo están en [`docs/CONVENCIONES.md`](docs/CONVENCIONES.md).
 
 | Unidad | Lecciones | Fechas estimadas | Estado |
 |---|---|---|---|
-| 1. Neurona y capa | [Lección 1](notebooks/S01_2026-11-23_neurona-y-capa/README.md) | 23 – 29 nov 2026 | En curso |
+| 1. Neurona y capa | [Lección 1](notebooks/U01_S01_2026-11-23_neurona-y-capa/README.md) | 23 – 29 nov 2026 | En curso |
 | 2. Activaciones y pérdida | | 30 nov 2026 – 20 dic 2026 | Pendiente |
 | 3. Retropropagación | | 21 dic 2026 – 10 ene 2027 | Pendiente |
 | 4. Optimizadores | | 11 ene 2027 – 24 ene 2027 | Pendiente |

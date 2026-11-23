@@ -19,7 +19,7 @@ AILab/
 │   ├── PLANTILLA_LECCION.md
 │   └── ruta/             # ruta de aprendizaje, tabla de lecturas, planes semanales
 ├── notebooks/
-│   └── SNN_AAAA-MM-DD_titulo/
+│   └── UNN_SNN_AAAA-MM-DD_titulo/
 │       ├── README.md     # objetivo, idea, lecturas, ejercicios, prueba de salida, resumen
 │       ├── SNN_AAAA-MM-DD_titulo.ipynb            # plantilla del cuaderno
 │       └── SNN_AAAA-MM-DD_titulo_resuelto.ipynb   # tu versión resuelta
@@ -71,12 +71,16 @@ Cada documento `.md` lleva su fecha de creación y de última actualización (fo
 
 ## 9. Nombres de carpetas y archivos
 
-Todo lo que pertenece a una semana se nombra así:
+**Carpeta de una lección** (en `notebooks/`):
 
 ```
-S<semana>_<AAAA-MM-DD del lunes de esa semana>_<titulo-en-minusculas-con-guiones>
+U<unidad>_S<semana>_<AAAA-MM-DD del lunes de esa semana>_<titulo-en-minusculas-con-guiones>
 ```
 
-Ejemplo: `S01_2026-11-23_neurona-y-capa`. Ordena solo por semana, la fecha dice cuándo ocurrió y el título dice de qué trata. Sin tildes ni espacios, para que funcione bien en GitHub y en Colab.
+Ejemplo: `U01_S01_2026-11-23_neurona-y-capa`. La unidad y la semana ordenan la lista, la fecha dice cuándo ocurrió y el título dice de qué trata.
+
+**Archivos dentro de la carpeta y planes semanales** (en `docs/ruta/`): llevan solo la parte de la semana, porque la unidad ya está en la carpeta: `S01_2026-11-23_neurona-y-capa.ipynb`, `S01_2026-11-23_plan-neurona-y-capa.md`.
+
+Sin tildes ni espacios, para que funcione bien en GitHub y en Colab.
 
 Se exceptúan los archivos que no pertenecen a una sola semana (`README.md`, `calendario.md`, la ruta, la tabla de lecturas, estas convenciones y la plantilla): conservan su nombre descriptivo.
