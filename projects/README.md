@@ -1,38 +1,38 @@
-# Proyectos
+# Projects
 
-*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+*Created: 2026-11-23 · Last updated: 2026-11-23*
 
-Aquí viven los proyectos que se pueden **mostrar**: pensados para que alguien que no te conoce entienda qué hiciste, por qué y qué resultado obtuviste.
+This is where the projects I can **show** live: written so that someone who does not know me understands what I built, why, and what result I got.
 
-> Los proyectos no se improvisan. Cada uno aparece **cuando ya tienes los conocimientos para hacerlo bien**, al final de una unidad de la ruta. Las semanas son aproximadas (parten de unas 10 horas por semana) y se ajustarán a tu ritmo real. Las fechas objetivo salen de [`calendario.md`](../docs/ruta/calendario.md), contando desde el 23 de noviembre de 2026.
+> Projects are not improvised. Each one appears **when I have the knowledge to do it well**, at the end of a unit of the study route. Weeks are approximate (they assume about 10 hours per week) and will be adjusted to my real pace. Target dates come from the [calendar](../docs/ruta/calendario.md) (in Spanish), counting from November 23, 2026.
 
-## Plan de proyectos
+## Project plan
 
-| # | Proyecto | Cuándo | Fecha objetivo | Qué construyes | Qué demuestra |
+| # | Project | When | Target date | What I build | What it shows |
 |---|---|---|---|---|---|
-| 1 | **Red neuronal desde cero** | Al terminar la Unidad 6 (≈ semana 13) | 21 feb 2027 | Una mini-librería en NumPy (capas, activaciones, pérdida, optimizadores, clase `Modelo`) entrenada con un conjunto de datos real | Que entiendes la mecánica por dentro, no solo el uso de una librería |
-| 2 | **De NumPy a PyTorch** | Al terminar la Unidad 7 (≈ semana 17) | 21 mar 2027 | La misma red en PyTorch, con una comparación rigurosa: gradientes de `autograd` contra los tuyos, curvas de pérdida, tiempos | Rigor experimental y dominio de PyTorch |
-| 3 | **Clasificador de imágenes** | Al terminar la Unidad 8 (≈ semana 22) | 25 abr 2027 | Una CNN con aumento de datos y análisis de errores; opcionalmente, un transformer pequeño | Manejo de arquitecturas modernas y análisis crítico de resultados |
-| 4 | **Percepción para robótica, desplegada** | Al terminar la Unidad 9 (≈ semana 28) | 6 jun 2027 | Un modelo de percepción (detección o segmentación) sobre datos de robótica, servido como API y empaquetado con Docker | Tu objetivo profesional: IA aplicada a robótica y MLOps |
+| 1 | **Neural network from scratch** | End of Unit 6 (≈ week 13) | Feb 21, 2027 | A small NumPy library (layers, activations, loss, optimizers, a `Model` class) trained on a real dataset | That I understand the mechanics inside, not only how to use a library |
+| 2 | **From NumPy to PyTorch** | End of Unit 7 (≈ week 17) | Mar 21, 2027 | The same network in PyTorch, with a rigorous comparison: `autograd` gradients against my own, loss curves, timings | Experimental rigor and command of PyTorch |
+| 3 | **Image classifier** | End of Unit 8 (≈ week 22) | Apr 25, 2027 | A CNN with data augmentation and error analysis; optionally, a small transformer | Command of modern architectures and critical analysis of results |
+| 4 | **Perception for robotics, deployed** | End of Unit 9 (≈ week 28) | Jun 6, 2027 | A perception model (detection or segmentation) on robotics data, served as an API and packaged with Docker | My professional goal: applied AI for robotics and MLOps |
 
-Los proyectos 3 y 4 son propuestas: el tema concreto se decide cuando lleguemos, según tus intereses de ese momento.
+Projects 3 and 4 are proposals: the exact topic is decided when we get there, according to my interests at that moment.
 
-## Cómo se organiza cada proyecto
+## How each project is organized
 
 ```
-projects/NN-nombre-del-proyecto/
-├── README.md        # presentación del proyecto (ver estructura abajo)
-├── notebooks/       # experimentos y análisis
-├── src/             # código reutilizable del proyecto
-├── data/            # datos pequeños o instrucciones para descargarlos (nunca archivos grandes)
-└── results/         # gráficas y tablas finales
+projects/NN-project-name/
+├── README.md        # project write-up (see structure below)
+├── notebooks/       # experiments and analysis
+├── src/             # reusable project code
+├── data/            # small datasets or download instructions (never large files)
+└── results/         # final plots and tables
 ```
 
-## Estructura del `README.md` de cada proyecto
+## Structure of each project's `README.md`
 
-1. **Problema:** qué se quiere resolver y por qué importa.
-2. **Datos:** de dónde vienen y qué contienen.
-3. **Método:** qué modelo se usó y por qué, con las matemáticas necesarias.
-4. **Resultados:** números y gráficas, con una lectura honesta de ellos.
-5. **Cómo reproducirlo:** comandos exactos.
-6. **Limitaciones y qué aprendí:** lo que no funcionó y lo que mejorarías.
+1. **Problem:** what is being solved and why it matters.
+2. **Data:** where it comes from and what it contains.
+3. **Method:** which model was used and why, with the necessary mathematics.
+4. **Results:** numbers and plots, with an honest reading of them.
+5. **How to reproduce:** exact commands.
+6. **Limitations and what I learned:** what did not work and what I would improve.

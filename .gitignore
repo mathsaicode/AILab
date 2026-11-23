@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Obsidian (personal vault settings)
+.obsidian/
+
+# Data and trained models: never commit large files.
+# Document how to download them in the project's README instead.
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.onnx
+*.npy
+*.npz
+*.zip
+
+# Operating system
+.DS_Store
+Thumbs.db

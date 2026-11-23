@@ -1,115 +1,117 @@
-# Lección 1: de la neurona a la capa
+# Lesson 1: from the neuron to the layer
 
-*Creado: 2026-11-23 · Última actualización: 2026-11-23*
+*Created: 2026-11-23 · Last updated: 2026-11-23*
 
-**Semana:** 1 · **Fechas:** del lunes 23 al domingo 29 de noviembre de 2026 (ver [`calendario.md`](../../docs/ruta/calendario.md)) · **Plan diario:** [`docs/ruta/U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md`](../../docs/ruta/U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md)
+**Unit:** 1 · **Week:** 1 · **Dates:** Monday, November 23 to Sunday, November 29, 2026 · **Daily plan (in Spanish):** [`docs/ruta/U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md`](../../docs/ruta/U01_S01_2026-11-23_neurona-y-capa/U01_S01_2026-11-23_plan-neurona-y-capa.md) · **Calendar (in Spanish):** [`calendario.md`](../../docs/ruta/calendario.md)
 
-**Estado:** inicio 2026-11-23 · entrega (prueba de salida) 2026-11-29
+**Status:** started 2026-11-23 · due (exit test) 2026-11-29
 
-## 1. Objetivo
+> Language note: the lessons in `notebooks/` are written in English. The study route, the reading table and the weekly plans in `docs/ruta/` are written in Spanish.
 
-> Calcular y programar $y = Wx + b$ para una capa de neuronas y para un lote de datos, y explicar con tus palabras qué significa cada símbolo y por qué la fórmula tiene esa forma.
+## 1. Goal
 
-Al terminar podrás:
+> Compute and program $y = Wx + b$ for a layer of neurons and for a batch of data, and explain in your own words what each symbol means and why the formula has this shape.
 
-- Calcular a mano la salida de una neurona y de una capa.
-- Explicar la neurona como una **votación ponderada** y la capa como una **transformación afín**.
-- Programarlas en NumPy, desde un bucle hasta una sola línea.
-- Procesar un lote de datos con $Y = XW^{\top} + \mathbf{1}\,b^{\top}$ y justificar la transpuesta.
+By the end you will be able to:
 
-## 2. La idea
+- Compute by hand the output of a neuron and of a layer.
+- Explain a neuron as a **weighted vote** and a layer as an **affine transformation**.
+- Program them in NumPy, from a plain loop down to a single line.
+- Process a batch of data with $Y = XW^{\top} + \mathbf{1}\,b^{\top}$ and justify the transpose.
 
-### La neurona
-Una neurona recibe $n$ números $x_1,\dots,x_n$. Cada uno "vota" con un peso $w_i$: si $w_i>0$ empuja el resultado hacia arriba, si $w_i<0$ lo empuja hacia abajo, y si $w_i\approx 0$ casi no influye. Se suman los votos y se añade un número fijo $b$, el **sesgo**:
+## 2. The idea
+
+### The neuron
+A neuron receives $n$ numbers $x_1,\dots,x_n$. Each one "votes" with a weight $w_i$: if $w_i>0$ it pushes the result up, if $w_i<0$ it pushes it down, and if $w_i\approx 0$ it barely matters. The votes are added and a fixed number $b$, the **bias**, is included:
 
 $$y = \sum_{i=1}^{n} w_i x_i + b = w^{\top}x + b$$
 
-El sesgo desplaza el hiperplano $w^{\top}x + b = 0$. Sin él, ese hiperplano pasaría siempre por el origen.
+The bias shifts the hyperplane $w^{\top}x + b = 0$. Without it, that hyperplane would always pass through the origin.
 
-### La capa
-Una capa son $m$ neuronas que miran las **mismas** $n$ entradas, cada una con sus propios pesos. Los pesos se guardan en una matriz donde **cada fila es una neurona**:
+### The layer
+A layer is $m$ neurons that look at the **same** $n$ inputs, each with its own weights. The weights are stored in a matrix where **each row is one neuron**:
 
 $$y = Wx + b, \qquad W\in\mathbb{R}^{m\times n},\; x\in\mathbb{R}^{n},\; b\in\mathbb{R}^{m},\; y\in\mathbb{R}^{m}$$
 
-Desde el álgebra lineal: $x\mapsto Wx$ es una transformación lineal y sumar $b$ es una traslación. Juntas forman una transformación **afín**.
+In linear-algebra terms: $x\mapsto Wx$ is a linear map and adding $b$ is a translation. Together they form an **affine** map.
 
-### El lote
-En la práctica se procesan $N$ ejemplos a la vez, guardados como filas de $X\in\mathbb{R}^{N\times n}$. Transponiendo $y_k = Wx_k + b$ se obtiene $y_k^{\top} = x_k^{\top}W^{\top} + b^{\top}$, y apilando las $N$ filas:
+### The batch
+In practice $N$ examples are processed at once, stored as the rows of $X\in\mathbb{R}^{N\times n}$. Transposing $y_k = Wx_k + b$ gives $y_k^{\top} = x_k^{\top}W^{\top} + b^{\top}$, and stacking the $N$ rows:
 
 $$Y = XW^{\top} + \mathbf{1}\,b^{\top}$$
 
-### Por qué importa más adelante
-Dos capas afines seguidas equivalen a **una sola**: $W_2(W_1x+b_1)+b_2 = (W_2W_1)x + (W_2b_1+b_2)$. Por eso la Lección siguiente añade una función **no lineal** entre capas. Toda red que verás después, de un clasificador a un transformer, se construye apilando capas como esta.
+### Why it matters later
+Two affine layers in a row are equivalent to **a single one**: $W_2(W_1x+b_1)+b_2 = (W_2W_1)x + (W_2b_1+b_2)$. That is why the next lesson adds a **nonlinear** function between layers. Every network you will meet later, from a classifier to a transformer, is built by stacking layers like this one.
 
-## 3. Lecturas
+## 3. Readings
 
-### Lectura principal
+### Main reading
 
-| Libro | Páginas | Objetivo de aprendizaje |
+| Book | Pages | Learning objective |
 |---|---|---|
-| **Kinsley**, *Coding Our First Neurons* | 25–58 | Ver programadas en NumPy la neurona, la capa y el lote, y relacionar producto punto, producto matricial y transpuesta con el cuaderno. |
-| **Deisenroth (MML)**, 2.2 *Matrices* | 22–26 | Dominar con rigor suma, producto y transpuesta de matrices. |
-| **Deisenroth (MML)**, 3.2 *Inner Products* | 72–74 | Reconocer el producto punto $w^{\top}x$ como un producto interno. |
-| **Prince (UDL)**, 4.4 *Matrix notation* | 48 | Ver cómo se escribe una red de varias capas con matrices. |
+| **Kinsley**, *Coding Our First Neurons* | 25–58 | See the neuron, the layer and the batch programmed in NumPy, and relate the dot product, the matrix product and the transpose to the notebook. |
+| **Deisenroth (MML)**, 2.2 *Matrices* | 22–26 | Master, with rigor, matrix addition, multiplication and transposition. |
+| **Deisenroth (MML)**, 3.2 *Inner Products* | 72–74 | Recognize the dot product $w^{\top}x$ as an inner product. |
+| **Prince (UDL)**, 4.4 *Matrix notation* | 48 | See how a multi-layer network is written with matrices. |
 
-### Apoyo (opcional)
+### Support (optional)
 
-| Libro | Páginas | Objetivo de aprendizaje |
+| Book | Pages | Learning objective |
 |---|---|---|
-| **Prince (UDL)**, 2.1 y 2.2 | 17–21 | Entender que "aprender" es ajustar parámetros para que un modelo se parezca a los datos. |
-| **Goodfellow**, 2.1 y 2.2 | 29–33 | Segunda explicación de vectores, matrices y producto matriz-vector. |
-| **D2L**, 2.3.8 a 2.3.10 | 48–49 | Ver las mismas operaciones en PyTorch. |
-| **Deisenroth (MML)**, 2.7 *Linear Mappings* | 48–60 | Entender por qué $x\mapsto Wx$ es lineal y por qué sumar $b$ la vuelve afín. |
-| **Bishop**, 6.2.1 *Parameter matrices* | 181 | La misma capa vista desde la teoría de redes neuronales. |
+| **Prince (UDL)**, 2.1 and 2.2 | 17–21 | Understand that "learning" means adjusting parameters so that a model resembles the data. |
+| **Goodfellow**, 2.1 and 2.2 | 29–33 | A second explanation of vectors, matrices and the matrix–vector product. |
+| **D2L**, 2.3.8 to 2.3.10 | 48–49 | See the same operations in PyTorch. |
+| **Deisenroth (MML)**, 2.7 *Linear Mappings* | 48–60 | Understand why $x\mapsto Wx$ is linear and why adding $b$ makes it affine. |
+| **Bishop**, 6.2.1 *Parameter matrices* | 181 | The same layer seen from neural-network theory. |
 
-Las páginas son las **impresas** en cada libro. El desfase con el visor de PDF está en [`docs/ruta/tabla_lecturas.md`](../../docs/ruta/tabla_lecturas.md).
+Pages are the **printed** ones in each book. The offset to the PDF viewer is in [`docs/ruta/tabla_lecturas.md`](../../docs/ruta/tabla_lecturas.md) (in Spanish).
 
-## 4. Cuaderno
+## 4. Notebook
 
-- **Plantilla:** [`S01_2026-11-23_neurona-y-capa.ipynb`](S01_2026-11-23_neurona-y-capa.ipynb) · [abrir en Colab](https://colab.research.google.com/github/mathsaicode/AILab/blob/main/notebooks/U01_S01_2026-11-23_neurona-y-capa/S01_2026-11-23_neurona-y-capa.ipynb)
-- **Tu versión resuelta:** guárdala aquí como `S01_2026-11-23_neurona-y-capa_resuelto.ipynb`.
-- **Teoría de apoyo:** [`U01_S01_2026-11-23_teoria-wx-b.md`](U01_S01_2026-11-23_teoria-wx-b.md) explica $y=Wx+b$ con ejemplos numéricos y 5 ejercicios.
+- **Template:** [`S01_2026-11-23_neurona-y-capa.ipynb`](S01_2026-11-23_neurona-y-capa.ipynb) · [open in Colab](https://colab.research.google.com/github/mathsaicode/AILab/blob/main/notebooks/U01_S01_2026-11-23_neurona-y-capa/S01_2026-11-23_neurona-y-capa.ipynb)
+- **Your solved version:** save it in this folder as `S01_2026-11-23_neurona-y-capa_resuelto.ipynb`.
+- **Supporting theory:** [`U01_S01_2026-11-23_teoria-wx-b.md`](U01_S01_2026-11-23_teoria-wx-b.md) explains $y=Wx+b$ with numerical examples and 5 exercises.
 
-Estructura del cuaderno: **Parte A** (Python básico), **B** (la neurona), **C** (la capa), **D** (el lote) y **E** (resumen).
+Notebook structure: **Part A** (basic Python), **B** (the neuron), **C** (the layer), **D** (the batch) and **E** (summary).
 
-## 5. Ejercicios a mano
+## 5. Hand exercises
 
-1. Calcula $y=w^{\top}x+b$ con $x=(2,1,3)$, $w=(0.5,-1,2)$ y $b=1$. **Resultado esperado: $7$.**
-2. Una neurona con $w=(1,1)$ y $b=-3$: ¿de qué lado de la recta cae el punto $(3,2)$?
-3. Para $W=\begin{pmatrix}0.5&-1&2\\1&0&-1\\0&2&1\end{pmatrix}$, $b=(1,0,-1)$, $x=(2,1,3)$, calcula $y$. **Resultado esperado: $(7,-1,4)$.**
-4. **Demostración:** si $y_1=W_1x+b_1$ y $y_2=W_2y_1+b_2$, encuentra $W'$ y $b'$ tales que $y_2=W'x+b'$.
-5. ¿Cuántos parámetros tiene una capa de $784$ entradas y $10$ neuronas?
+1. Compute $y=w^{\top}x+b$ with $x=(2,1,3)$, $w=(0.5,-1,2)$ and $b=1$. **Expected result: $7$.**
+2. A neuron with $w=(1,1)$ and $b=-3$: which side of the line does the point $(3,2)$ fall on?
+3. For $W=\begin{pmatrix}0.5&-1&2\\1&0&-1\\0&2&1\end{pmatrix}$, $b=(1,0,-1)$, $x=(2,1,3)$, compute $y$. **Expected result: $(7,-1,4)$.**
+4. **Proof:** if $y_1=W_1x+b_1$ and $y_2=W_2y_1+b_2$, find $W'$ and $b'$ such that $y_2=W'x+b'$.
+5. How many parameters does a layer with $784$ inputs and $10$ neurons have?
 
-## 6. Prueba de salida
+## 6. Exit test
 
-Responde sin mirar el libro ni el cuaderno:
+Answer without looking at the book or the notebook:
 
-- [ ] ¿Qué dimensiones tienen $x$, $W$, $b$ y $y$?
-- [ ] ¿Qué representa cada fila de $W$? ¿Y cada columna?
-- [ ] ¿Por qué la capa es afín y no lineal?
-- [ ] ¿Por qué en el lote se usa $XW^{\top}$ y no $WX$?
-- [ ] ¿Por qué apilar capas afines sin nada en medio no aporta nada nuevo?
+- [ ] What are the dimensions of $x$, $W$, $b$ and $y$?
+- [ ] What does each row of $W$ represent? And each column?
+- [ ] Why is the layer affine and not linear?
+- [ ] Why is $XW^{\top}$ used for a batch, and not $WX$?
+- [ ] Why does stacking affine layers with nothing in between add nothing new?
 
-## 7. Entregable
+## 7. Deliverable
 
-- [ ] Cuaderno resuelto, con todas las comprobaciones en ✅, guardado en esta carpeta.
-- [ ] Ejercicios a mano 1 a 5 resueltos (foto o texto, en `ejercicios/`).
-- [ ] Sección "Mi resumen" de abajo completada.
+- [ ] Solved notebook, with every check showing ✅, saved in this folder.
+- [ ] Hand exercises 1 to 5 solved (photo or text, in `ejercicios/`).
+- [ ] "My summary" section below completed.
 
-## 8. Mi resumen
+## 8. My summary
 
-> Escribe aquí, con tus palabras, qué aprendiste. Una lección que no puedes resumir no está terminada.
+> Write here, in your own words, what you learned. A lesson you cannot summarize is not finished.
 
-**Hoy aprendí…**
-
--
--
--
-
-**Lo que me costó más:**
+**Today I learned…**
 
 -
+-
+-
 
-## 9. Qué sigue
+**What was hardest for me:**
 
-**Lección 2: activaciones y pérdida** (Semanas 2 a 4: 30 de noviembre al 20 de diciembre de 2026). Añadimos una función no lineal entre capas y una medida del error, para que la red tenga algo que mejorar.
+-
+
+## 9. What's next
+
+**Lesson 2: activations and loss** (Weeks 2 to 4: November 30 to December 20, 2026). We add a nonlinear function between layers and a measure of error, so the network has something to improve.

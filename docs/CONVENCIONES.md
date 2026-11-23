@@ -36,7 +36,7 @@ Cada carpeta de lección sigue la [plantilla](PLANTILLA_LECCION.md) y siempre in
 2. **Lecturas** con libro, páginas y objetivo de cada una.
 3. **Cuaderno** (plantilla y versión resuelta).
 4. **Ejercicios** a mano y **prueba de salida**.
-5. **"Mi resumen"** escrito por ti, con tus palabras.
+5. **"My summary"** (*Mi resumen*) escrito por ti, con tus palabras.
 
 ## 4. Cómo guardar tu trabajo desde Colab
 
@@ -63,7 +63,7 @@ No se suben datos grandes ni modelos entrenados pesados. Se documenta cómo desc
 
 - [ ] Todas las comprobaciones del cuaderno en ✅.
 - [ ] Prueba de salida respondida sin mirar.
-- [ ] "Mi resumen" escrito.
+- [ ] "My summary" escrito.
 - [ ] Cuaderno resuelto guardado en la carpeta de la lección.
 
 ## 8. Fechas
@@ -89,3 +89,11 @@ Ejemplo: `U01_S01_2026-11-23_neurona-y-capa`. La unidad y la semana ordenan la l
 Sin tildes ni espacios, para que funcione bien en GitHub y en Colab.
 
 Se exceptúan los archivos que no pertenecen a una sola semana (`README.md`, `calendario.md`, la ruta, la tabla de lecturas, estas convenciones y la plantilla): conservan su nombre descriptivo.
+
+## 10. Idioma
+
+- **En inglés** (es la vitrina pública): `README.md` de la raíz, todo `notebooks/` (README de cada lección, teoría y cuadernos), `projects/` y los comentarios y nombres dentro del código.
+- **En español** (es tu ruta personal): todo `docs/` (ruta, calendario, tabla de lecturas, planes semanales y estas convenciones) y `CLAUDE.md`.
+- Los nombres de carpetas y archivos de las lecciones conservan por ahora el título en español (por ejemplo `neurona-y-capa`). Si prefieres títulos en inglés, se cambian de una vez, junto con sus enlaces.
+- Cada lección en inglés enlaza a su plan en español, y el plan en español enlaza a la lección.
+

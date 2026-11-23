@@ -2,78 +2,82 @@
 
 *Creado: 2026-11-23 · Última actualización: 2026-11-23*
 
-Copia este archivo como `README.md` dentro de `notebooks/UNN_SNN_AAAA-MM-DD_titulo/` y complétalo. Ver el ejemplo real en [`notebooks/U01_S01_2026-11-23_neurona-y-capa/README.md`](../notebooks/U01_S01_2026-11-23_neurona-y-capa/README.md).
+Copia este archivo como `README.md` dentro de `notebooks/UNN_SNN_AAAA-MM-DD_titulo/` y complétalo **en inglés** (las lecciones de `notebooks/` van en inglés; el material de `docs/ruta/` va en español). Ver el ejemplo real en [`notebooks/U01_S01_2026-11-23_neurona-y-capa/README.md`](../notebooks/U01_S01_2026-11-23_neurona-y-capa/README.md).
 
 ---
 
-# Lección NN: título
+```markdown
+# Lesson NN: title
 
-**Semana:** N · **Fechas:** del DD de mes al DD de mes de AAAA (ver [`calendario.md`](ruta/calendario.md)) · **Plan diario:** enlace al plan semanal
+*Created: YYYY-MM-DD · Last updated: YYYY-MM-DD*
 
-**Estado:** inicio AAAA-MM-DD · entrega AAAA-MM-DD
+**Unit:** N · **Week:** N · **Dates:** from Monday, Month DD to Sunday, Month DD, YYYY · **Daily plan (in Spanish):** link to the weekly plan
 
-## 1. Objetivo
+**Status:** started YYYY-MM-DD · due YYYY-MM-DD
 
-> Una frase que diga qué sabrás hacer al terminar.
+## 1. Goal
 
-Al terminar podrás:
+> One sentence saying what you will be able to do at the end.
+
+By the end you will be able to:
 
 -
 -
 
-## 2. La idea
+## 2. The idea
 
-Explicación conceptual completa, con el porqué: la historia de la idea, su base matemática (con dominios y dimensiones) y para qué sirve más adelante.
+A complete conceptual explanation, with the why: the story of the idea, its mathematical basis (with domains and dimensions) and what it is useful for later.
 
-## 3. Lecturas
+## 3. Readings
 
-### Lectura principal
+### Main reading
 
-| Libro | Páginas | Objetivo de aprendizaje |
+| Book | Pages | Learning objective |
 |---|---|---|
 | | | |
 
-### Apoyo (opcional)
+### Support (optional)
 
-| Libro | Páginas | Objetivo de aprendizaje |
+| Book | Pages | Learning objective |
 |---|---|---|
 | | | |
 
-## 4. Cuaderno
+## 4. Notebook
 
-- Plantilla: `SNN_AAAA-MM-DD_titulo.ipynb`
-- Tu versión resuelta: `SNN_AAAA-MM-DD_titulo_resuelto.ipynb`
+- Template: `SNN_YYYY-MM-DD_title.ipynb`
+- Your solved version: `SNN_YYYY-MM-DD_title_resuelto.ipynb`
 
-Cada paso del cuaderno debe tener: qué se va a lograr, la idea, un ejemplo resuelto, tu turno y el resultado esperado.
+Every step of the notebook must have: what will be achieved, the idea, a worked example, your turn and the expected result.
 
-## 5. Ejercicios a mano
+## 5. Hand exercises
 
 1.
 2.
 
-## 6. Prueba de salida
+## 6. Exit test
 
-Preguntas para responder sin mirar nada:
+Questions to answer without looking at anything:
 
 - [ ]
 - [ ]
 
-## 7. Entregable
+## 7. Deliverable
 
-- [ ] Cuaderno resuelto en la carpeta.
-- [ ] Ejercicios resueltos.
-- [ ] "Mi resumen" completado.
+- [ ] Solved notebook in the folder.
+- [ ] Exercises solved.
+- [ ] "My summary" completed.
 
-## 8. Mi resumen
+## 8. My summary
 
-**Hoy aprendí…**
-
--
-
-**Lo que me costó más:**
+**Today I learned…**
 
 -
 
-## 9. Qué sigue
+**What was hardest for me:**
 
-Una frase sobre la siguiente lección.
+-
+
+## 9. What's next
+
+One sentence about the next lesson.
+```
