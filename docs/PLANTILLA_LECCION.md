@@ -1,0 +1,75 @@
+# Plantilla de lección
+
+Copia este archivo como `README.md` dentro de `notebooks/NN-nombre-de-la-leccion/` y complétalo. Ver el ejemplo real en [`notebooks/01-neurona-y-capa/README.md`](../notebooks/01-neurona-y-capa/README.md).
+
+---
+
+# Lección NN: título
+
+**Semana:** N · **Plan diario:** enlace al plan semanal
+
+## 1. Objetivo
+
+> Una frase que diga qué sabrás hacer al terminar.
+
+Al terminar podrás:
+
+-
+-
+
+## 2. La idea
+
+Explicación conceptual completa, con el porqué: la historia de la idea, su base matemática (con dominios y dimensiones) y para qué sirve más adelante.
+
+## 3. Lecturas
+
+### Lectura principal
+
+| Libro | Páginas | Objetivo de aprendizaje |
+|---|---|---|
+| | | |
+
+### Apoyo (opcional)
+
+| Libro | Páginas | Objetivo de aprendizaje |
+|---|---|---|
+| | | |
+
+## 4. Cuaderno
+
+- Plantilla: `NN_nombre.ipynb`
+- Tu versión resuelta: `NN_nombre_resuelto.ipynb`
+
+Cada paso del cuaderno debe tener: qué se va a lograr, la idea, un ejemplo resuelto, tu turno y el resultado esperado.
+
+## 5. Ejercicios a mano
+
+1.
+2.
+
+## 6. Prueba de salida
+
+Preguntas para responder sin mirar nada:
+
+- [ ]
+- [ ]
+
+## 7. Entregable
+
+- [ ] Cuaderno resuelto en la carpeta.
+- [ ] Ejercicios resueltos.
+- [ ] "Mi resumen" completado.
+
+## 8. Mi resumen
+
+**Hoy aprendí…**
+
+-
+
+**Lo que me costó más:**
+
+-
+
+## 9. Qué sigue
+
+Una frase sobre la siguiente lección.
