@@ -36,3 +36,7 @@ data/processed/
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Editors and IDEs (local settings, not part of the project)
+.idea/
+.vscode/
