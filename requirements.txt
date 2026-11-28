@@ -1,0 +1,8 @@
+# Tools for the notebooks in this repository.
+# Lower bounds only: the lessons were tested with Python 3.13 and numpy 2.5.
+# Exact versions (a lock file) will be added with the first project, where
+# reproducing a result matters.
+numpy>=2.0
+matplotlib>=3.8
+jupyterlab>=4.0
+pytest>=8.0
